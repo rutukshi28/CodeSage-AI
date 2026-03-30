@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "code-sage-ai-rose.vercel.app",
   })
 );
 app.use(express.json());
